@@ -7,15 +7,15 @@ assignees: ''
 
 ---
 
-**As a** [role]  
-**I need** [function]  
-**So that** [benefit]  
+**As a** Software Developper 
+**I need** to develop an account microservice 
+**So that** we can keep track of the customers on our e-commerce website.
       
 ### Details and Assumptions
-    * [document what you know]      
+    * Customers visit our website and the current system in inadequate to keep track of their activies.    
 
 ### Acceptance Criteria     
     gherkin 
-    Given [some context]
-    When [certain action is taken]
-    Then [the outcome of action is observed]
+    Given customer database
+    When customer visits our website
+    Then the sevice creates, reads, updates, deletes, and lists customers.
